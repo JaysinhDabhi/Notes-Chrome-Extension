@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/JaysinhDabhi/https://github.com/JaysinhDabhi/">
-    <img src="icon.png" alt="Logo" width="80" height="80">
+    <img src="#" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Notes</h3>
