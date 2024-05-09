@@ -1,0 +1,115 @@
+/* Adjust the width and height of the popup container */
+body {
+    font-family: poppins;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Style the title */
+.title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the form */
+#note-form {
+    margin-bottom: 20px;
+}
+
+/* Style the input fields */
+#note-form input[type="text"],
+#note-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the textarea */
+#note-form textarea {
+    height: 100px;
+}
+
+/* Style the submit button */
+#note-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style individual notes */
+.note {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style note title */
+.note h3 {
+    margin-top: 0;
+}
+
+/* Style note message */
+.note p {
+    margin-bottom: 10px;
+}
+
+/* Style note creation date */
+.note small {
+    color: #777;
+}
+
+/* Style the new notes section */
+#new-notes-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    max-height: 200px; /* Set maximum height for the new notes section */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds max height */
+}
+
+
+/* Updated CSS for delete button */
+.note {
+    position: relative; /* Add relative positioning */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Updated CSS for delete button */
+.delete-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: transparent;
+    color: #f44336;
+    border: 1px solid #f44336;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transitions for smooth hover effect */
+}
+
+.delete-btn:hover {
+    background-color: #f44336;
+    color: white;
+    border-color: #f44336;
+}
+
+
+
